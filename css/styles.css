@@ -89,6 +89,7 @@ body {
           box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
 }
 .image1 .bat-info, .image2 .cat-info, .image3 .cheetah-info, .image4 .numbat-info, .image5 .panda-info, .image6 .porcupine-info, .image7 .sealion-info, .image8 .snowleopard-info, .image9 .whale-info, .image10 .wolf-info {
+
   visibility: hidden;
   width: 500px;
   background-color: #A86216;
