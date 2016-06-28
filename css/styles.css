@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900);
+
 *,
 *::before,
 *::after {
@@ -5,14 +7,27 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
-
+body {
+  background-color: #E8D9AE;
+  font-family: 'Lato', sans-serif;
+}
 .masthead {
   height: 400px;
-  background-color: lightblue;
+  background-image: url("../img/mast.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color:#33296E;
+  padding-top: 30px;
+  border-bottom: 20px solid #42502e;
+  font-family: 'Lato', sans-serif;
+  font-size: 3em
 }
 
 .background {
   position: relative;
+  /*margin-top: 50px;*/
 }
 
 .images img {
@@ -73,6 +88,52 @@
      -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
           box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
 }
+.image1 .bat-info, .image2 .cat-info, .image3 .cheetah-info, .image4 .numbat-info, .image5 .panda-info, .image6 .porcupine-info, .image7 .sealion-info, .image8 .snowleopard-info, .image9 .whale-info, .image10 .wolf-info {
+  visibility: hidden;
+  width: 500px;
+  background-color: #A86216;
+  opacity: .9;
+  color: #2B2301;
+  text-align: center;
+  padding: 20px;
+  border-radius: 25px;
+  position: absolute;
+  z-index: 1400;
+  top: 600px;
+  left: 450px;
+  box-shadow: 10px -16px rgba(0, 0, 0, 0.4);
+  }
+  .image1:hover .bat-info {
+    visibility: visible;
+  }
+  .image2:hover .cat-info {
+    visibility: visible;
+  }
+  .image3:hover .cheetah-info {
+    visibility: visible;
+  }
+  .image4:hover .numbat-info {
+    visibility: visible;
+  }
+  .image5:hover .panda-info {
+    visibility: visible;
+  }
+  .image6:hover .porcupine-info {
+    visibility: visible;
+  }
+  .image7:hover .sealion-info {
+    visibility: visible;
+  }
+  .image8:hover .snowleopard-info {
+    visibility: visible;
+  }
+  .image9:hover .whale-info {
+    visibility: visible;
+  }
+  .image10:hover .wolf-info {
+    visibility: visible;
+  }
+
 .image4::before {
   content: "Numbat | Myrmecobius Fasciatus";
   text-align: center;
@@ -89,6 +150,7 @@
      -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
           box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
 }
+
 .image5::before {
   content: "Panda | Ailuropoda Malanoleuca";
   text-align: center;
@@ -110,12 +172,12 @@
   text-align: center;
   color: white;
   height: 40px;
-  width: 150px;
+  width: 200px;
   background-color: rgba(0,0,0,0.3);
   position: absolute;
   display: block;
   top: 903px;
-  left: 379px;
+  left: 365px;
   z-index: 999;
   -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
      -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
