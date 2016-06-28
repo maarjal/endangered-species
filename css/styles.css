@@ -33,6 +33,8 @@ body {
 .images img {
   width: 100px;
   border-radius: 50%;
+  border: 6px solid #E8D9AE;
+  border-style: groove;
 }
 
 .bat {

@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+ body {
+   background: url("../img/wolfmoon.jpg");
+   background-size: cover;
+   background-repeat: round;
+   color: white;
+ }
+
+ h1 {
+   position: relative;
+ }
+
+ .intro {
+   max-width: 400px;
+   padding: 15px;
+ }
+
+ .wolfmap {
+   position: absolute;
+   top: 30px;
+   left: 1000px;
+ }
+ .wolfmap img {
+   width: 500px;
+   opacity: .8;
+ }
+
+ .wolf-size {
+   position: absolute;
+   top: 800px;
+   left: 50px;
+ }
+ .wolf-size img {
+   width: 400px;
+}
+
+.wolf-lines {
+  position: absolute;
+  top: 750px;
+  left: 600px;
+}
+
+.wolf-lines img {
+  width: 450px;
+}
+.wolf-graph {
+  position: absolute;
+  top: 400px;
+  left: 350px;
+  max-width: 400px;
+}
+
+#wolfgraph {
+  float: left;
+  margin: 10px;
+  border-radius: 50%;
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
+}
