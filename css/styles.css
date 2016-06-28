@@ -10,3 +10,234 @@
   height: 400px;
   background-color: lightblue;
 }
+
+.background {
+  position: relative;
+}
+
+.images img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.bat {
+  position: absolute;
+  top: 650px;
+  left: 50px;
+}
+.image1::before {
+  content: "Hoary Bat | Lasiurus Cinereus";
+  text-align: center;
+  color: white;
+  height: 40px;
+  width: 150px;
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  display: block;
+  top: 736px;
+  left: 47px;
+  z-index: 999;
+  -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+     -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+          box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+}
+.image2::before {
+  content: "Little Spotted Cat | Leopardus Tigrinus";
+  text-align: center;
+  color: white;
+  height: 40px;
+  width: 150px;
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  display: block;
+  top: 780px;
+  left: 325px;
+  z-index: 999;
+  -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+     -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+          box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+}
+.image3::before {
+  content: "Cheetah | Acinonyx Jubatus";
+  text-align: center;
+  color: white;
+  height: 40px;
+  width: 150px;
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  display: block;
+  top: 992px;
+  left: 689px;
+  z-index: 999;
+  -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+     -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+          box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+}
+.image4::before {
+  content: "Numbat | Myrmecobius Fasciatus";
+  text-align: center;
+  color: white;
+  height: 40px;
+  width: 180px;
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  display: block;
+  top: 981px;
+  left: 1031px;
+  z-index: 999;
+  -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+     -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+          box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+}
+.image5::before {
+  content: "Panda | Ailuropoda Malanoleuca";
+  text-align: center;
+  color: white;
+  height: 40px;
+  width: 150px;
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  display: block;
+  top: 700px;
+  left: 947px;
+  z-index: 999;
+  -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+     -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+          box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+}
+.image6::before {
+  content: "Porcupine | Chaetomys Subspinosus";
+  text-align: center;
+  color: white;
+  height: 40px;
+  width: 150px;
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  display: block;
+  top: 903px;
+  left: 379px;
+  z-index: 999;
+  -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+     -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+          box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+}
+.image7::before {
+  content: "Sealion | Eumetopias Jubatus";
+  text-align: center;
+  color: white;
+  height: 40px;
+  width: 150px;
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  display: block;
+  top: 617px;
+  left: 627px;
+  z-index: 999;
+  -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+     -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+          box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+}
+.image8::before {
+  content: "Snow Leopard | Uncia Uncia";
+  text-align: center;
+  color: white;
+  height: 40px;
+  width: 150px;
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  display: block;
+  top: 674px;
+  left: 778px;
+  z-index: 999;
+  -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+     -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+          box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+}
+.image9::before {
+  content: "Blue Whale | Balaenoptera Musculus";
+  text-align: center;
+  color: white;
+  height: 40px;
+  width: 150px;
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  display: block;
+  top: 1112px;
+  left: 582px;
+  z-index: 999;
+  -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+     -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+          box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+}
+.image10::before {
+  content: "Grey Wolf | Canis Lupus";
+  text-align: center;
+  color: white;
+  height: 40px;
+  width: 150px;
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  display: block;
+  top: 607px;
+  left: 266px;
+  z-index: 999;
+  -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+     -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+          box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+}
+
+
+
+#cat {
+  position: absolute;
+  top: 700px;
+  left: 350px;
+}
+
+#cheetah {
+  position: absolute;
+  top: 906px;
+  left: 713px;
+}
+
+#numbat {
+  position: absolute;
+  top: 900px;
+  left: 1057px;
+}
+
+#panda {
+  position: absolute;
+  top: 620px;
+  left: 968px;
+}
+
+#porcupine {
+  position: absolute;
+  top: 824px;
+  left: 400px;
+}
+
+#sealion {
+  position: absolute;
+  top: 545px;
+  left: 650px;
+}
+
+#snowleopard {
+  position: absolute;
+  top: 600px;
+  left: 800px;
+}
+
+#whale {
+  position: absolute;
+  top: 1054px;
+  left: 606px;
+}
+
+#wolf {
+  position: absolute;
+  top: 530px;
+  left: 287px;
+}
